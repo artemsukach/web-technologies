@@ -1,0 +1,68 @@
+/* Numbers */
+
+.numbers {
+  margin-bottom: 40px;
+}
+
+.numbers__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 145px;
+}
+
+.numbers__logo-wrapper {
+  width: 135px;
+  height: 135px;
+  border-radius: 100%;
+  border: 2px solid #dfe2eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.numbers__logo-text,
+.numbers__text {
+  text-align: center;
+}
+
+.numbers__item:nth-child(1) .numbers__logo-text,
+.numbers__item:nth-child(5) .numbers__logo-text {
+  font-size: 81px;
+  font-weight: 700;
+  color: #fe5815;
+}
+
+.numbers__item:nth-child(2) .numbers__logo-text {
+  font-size: 54px;
+  font-weight: 700;
+  color: #374a59;
+}
+
+.numbers__item:nth-child(3) .numbers__logo-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fe5815;
+  line-height: 30px;
+}
+
+.numbers__logo-text-symbol {
+  font-size: 26px;
+}
+
+.numbers__item:nth-child(4) .numbers__logo-text,
+.numbers__item:nth-child(6) .numbers__logo-text {
+  font-size: 81px;
+  font-weight: 700;
+  color: #374a59;
+}
+
+.numbers__text {
+  font-size: 15px;
+}

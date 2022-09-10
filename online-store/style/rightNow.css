@@ -1,0 +1,24 @@
+/* Buy right now */
+
+.buy-now {
+  margin-bottom: 75px;
+}
+
+.buy-now__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-now__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy-now__text {
+  text-align: center;
+}
+.buy-now__item + .buy-now__item {
+  margin-left: 50px;
+}

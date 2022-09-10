@@ -1,0 +1,142 @@
+@media (max-width: 750px) {
+  .container {
+    max-width: 300px;
+  }
+  .info__region {
+    font-size: 10px;
+  }
+
+  .catalog__wrapper {
+    justify-content: center;
+  }
+
+  .info__link-account:first-child {
+    display: none;
+  }
+
+  .info__main,
+  .news,
+  .catalog__item:not(:first-of-type),
+  .promo__item:not(:first-of-type),
+  .buy-now__item:not(:first-of-type),
+  .buy-now,
+  .brands,
+  .strengths,
+  .about-us,
+  .numbers,
+  .causes,
+  /* .work, */
+  .footer__info-item:nth-child(2),
+  .footer__info-item:nth-child(3) {
+    display: none;
+  }
+
+  .info__logo-link {
+    font-size: 26px;
+  }
+  .title--orange {
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  .info__main-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info__link-phone {
+    font-size: 14px;
+  }
+  .info__messanger-link {
+    font-size: 10px;
+  }
+  .info__communication {
+    justify-content: flex-start;
+  }
+  .info__search-icon-wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .info__search-icon {
+    max-width: 26px;
+  }
+
+  .info__search-wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .info__basket--orange {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    font-size: 7px;
+    text-align: center;
+    left: 80px;
+    top: -7px;
+  }
+  .info__messanger-link {
+    display: flex;
+    align-items: center;
+  }
+  .info__messanger-icon {
+    margin-right: 2px;
+  }
+  .catalog__wrapper {
+    justify-content: center;
+  }
+  .footer__info-item:last-of-type {
+    min-width: 140px;
+  }
+  .section__top-title {
+    font-size: 15px;
+  }
+
+  .work__options-item {
+    padding: 10px 10px;
+    margin-bottom: 5px;
+  }
+
+  .work__options-link {
+    font-size: 15px;
+  }
+  .work__way {
+    flex-wrap: wrap;
+  }
+	.work__way-item{
+		flex-basis: 30%;
+	}
+	.work__way-arrow{
+		align-self: flex-start;
+	}
+	.work__way-arrow:nth-of-type(4){
+		display: none;
+	}
+  .promo__item {
+    max-width: 290px;
+  }
+  .promo__items {
+    justify-content: center;
+  }
+  .additional {
+    background-color: #5b748a;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  .additional__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  .footer__bottom-text {
+    display: none;
+  }
+  .logo-text{
+    text-align: center;
+  }
+}

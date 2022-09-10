@@ -1,0 +1,18 @@
+/* Main */
+
+.container {
+  margin: 0 auto;
+  max-width: 1190px;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.active{
+  display: block;
+}
+
+.active-flex{
+  display: flex;
+}

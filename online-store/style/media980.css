@@ -1,0 +1,84 @@
+@media (max-width: 980px) {
+  .info__message {
+    display: none;
+  }
+
+  .info__communication {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .news__text {
+    font-size: 12px;
+  }
+
+  .news__posts-link,
+  .news__posts-text {
+    font-size: 10px;
+  }
+
+  .news__title {
+    font-size: 20px;
+  }
+
+  .news__text {
+    font-size: 8px;
+  }
+
+  .news__posts {
+    flex: 4;
+    padding-top: 10px;
+  }
+
+  .news__banner {
+    flex: 8;
+  }
+
+  .news__banner-wrapper {
+    height: 390px;
+  }
+
+  .catalog__item:last-of-type,
+  .promo__item:last-of-type,
+  .buy-now__item:last-of-type,
+  .numbers__item:nth-last-of-type(-n + 2) {
+    display: none;
+  }
+
+  .causes__item + .causes__item {
+    margin-left: 20px;
+  }
+
+	.work__way-item{
+		flex-direction: column;
+		align-items: center;
+	}
+	.work__way-logo{
+		margin-bottom: 10px;
+	}
+	.work__way-arrow{
+		align-self: center;
+	}
+  .footer__info-item:nth-child(-n + 2) {
+    margin-right: 20px;
+  }
+
+  .footer__info-link,
+  .footer__info-adress,
+  .footer__info-text {
+    font-size: 10px;
+  }
+
+  .footer__link-phone {
+    font-size: 16px;
+  }
+
+  .footer__messanger-link {
+    font-size: 12px;
+  }
+
+  .footer__bottom-text {
+    margin-right: 20px;
+  }
+}

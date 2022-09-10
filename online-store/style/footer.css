@@ -1,0 +1,128 @@
+/* Footer */
+
+.footer__info {
+  background-color: #5b748a;
+}
+
+.footer__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer__info-item:nth-child(3) {
+  display: flex;
+}
+.footer__info-item:nth-child(-n + 2) {
+  margin-right: 50px;
+  /* flex: 3; */
+}
+.footer__logo-title {
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.footer__title--orange {
+  font-weight: 400;
+  padding: 0 5px;
+  margin: 0 3px;
+}
+
+.footer__logo-link,
+.footer__logo-text {
+  color: #ffffff;
+}
+
+.footer__logo-text {
+  font-size: 7px;
+}
+
+.footer__info-text {
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer__info-link-wrapper {
+  font-size: 13px;
+}
+
+.footer__info-link {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer__info-adress {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer__message {
+  border: 5px solid #5b748a;
+}
+
+.footer__message-link {
+  text-decoration: none;
+}
+
+.footer__link-phone {
+  color: #ffffff;
+}
+
+.footer__messanger-link {
+  color: #ffffff;
+}
+
+.footer__link-email {
+  color: #ffffff;
+}
+
+.footer__timetable {
+  color: #ffffff;
+}
+
+.footer__info-item:last-of-type {
+  min-width: 200px;
+}
+
+.footer__info-item-wrapper {
+  margin-right: 50px;
+}
+
+.footer__info-messengers {
+  background-image: url('../img/social-network.svg');
+  width: 96px;
+  height: 30px;
+}
+
+.footer-info-massengers-link {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.footer__bottom {
+  background-color: #2d3f53;
+}
+
+.footer__bottom-text {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  margin-right: 225px;
+}
+
+.footer__bottom-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 23px 0;
+  align-items: center;
+}
+
+.footer__info-additional-text {
+  display: none;
+}
+
+.footer__contact-wrapper {
+  margin-bottom: 40px;
+}

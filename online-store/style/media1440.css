@@ -1,0 +1,131 @@
+@media (max-width: 1440px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1190px;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .info__search-wrapper {
+    justify-content: flex-end;
+  }
+
+  .info__search-icon-wrapper {
+    display: block;
+    width: 26px;
+    height: 26px;
+  }
+
+  .info__search-text-wrapper,
+  .info__search-form-wrapper {
+    display: none;
+  }
+
+  .info__menu {
+    display: none;
+  }
+  .section__top-arrow {
+    display: block;
+    height: 25px;
+    margin-left: 20px;
+  }
+  .section__top-link {
+    display: none;
+  }
+
+  .section__top-arrow-wrapper {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #8f9092;
+    width: 28px;
+    height: 28px;
+  }
+
+  .section__top-arrow-wrapper {
+    margin-left: 10px;
+  }
+
+  .section__top-arrow-right,
+  .section__top-arrow-left {
+    width: 80%;
+    height: 80%;
+  }
+
+  .section__top-arrow-wrapper:hover {
+    border: 2px solid #fe5815;
+  }
+
+  .news__banner-text {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  .news__banner-list-item {
+    list-style: inside;
+    color: #ffffff;
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .news__banner-wrapper {
+    height: 370px;
+  }
+
+  .catalog__left-arrow-button,
+  .catalog__right-arrow-button {
+    display: none;
+  }
+
+  .catalog__items {
+    max-width: 100%;
+  }
+
+  .catalog__item {
+    padding: 35px 5px 20px;
+  }
+
+  .catalog__item + .catalog__item {
+    margin-left: 10px;
+  }
+
+  .promo__term {
+    justify-content: center;
+  }
+
+  .promo__term-text {
+    display: none;
+  }
+
+  .footer__info-item {
+    flex-direction: column;
+  }
+
+  .footer__message {
+    border: none;
+  }
+
+  .footer__info-item-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer__communication {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .footer__info-item:last-of-type {
+    display: flex;
+    align-items: flex-end;
+  }
+}

@@ -1,0 +1,50 @@
+/* Strenghts */
+
+.strengths {
+  margin-bottom: 70px;
+}
+
+.strengths__wrapper {
+  background-color: #e4e5ea;
+  border-radius: 12px;
+  padding: 35px;
+}
+
+.strengths__horizontal-line {
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.strengths__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strengths__item {
+  max-width: 209px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.strengths__logo-wrapper {
+  width: 105px;
+  height: 105px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 25px;
+  margin-bottom: 16px;
+}
+
+.strengths__logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.strengths__text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}

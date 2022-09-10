@@ -1,0 +1,27 @@
+/* About us */
+
+.about-us {
+  margin-bottom: 90px;
+}
+
+.about-us__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us__text {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.about-us__link {
+  color: #fe5815;
+}
+
+.about-us__item + .about-us__item {
+  margin-left: 90px;
+}
+
+.hidden {
+  display: none;
+}

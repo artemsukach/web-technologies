@@ -1,0 +1,19 @@
+/* Brands */
+
+.brands {
+  margin-bottom: 85px;
+}
+
+.brands__top {
+  margin-bottom: 30px;
+}
+
+.brands__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands__item + .brands__item {
+  margin-left: 30px;
+}
