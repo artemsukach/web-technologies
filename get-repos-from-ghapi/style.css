@@ -1,0 +1,78 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.search__form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search__field {
+  width: 80%;
+  padding: 5px 10px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid black;
+}
+
+.search__button {
+  box-sizing: border-box;
+  margin-left: 5px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.main__message {
+  text-align: center;
+  font-size: 24px;
+}
+
+.hide {
+  display: none;
+}
+
+.search__list {
+  padding: 0 10px;
+  margin: 3px 0 0;
+  width: 80%;
+}
+
+.search__item {
+  list-style: none;
+  padding: 5px;
+}
+
+.search__item:hover {
+  background-color: rgb(211, 209, 209);
+}
+
+.main__user-info {
+  margin-top: 20px;
+}
+
+.main__header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.main__user-nickname {
+  font-size: 32px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.main__user-repos {
+  padding: 0;
+  list-style: none;
+}
+
+.main__user-repos-link {
+  text-decoration: none;
+  color: darkslateblue;
+}

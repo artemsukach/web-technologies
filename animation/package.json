@@ -1,0 +1,22 @@
+{
+  "name": "js-3.0-hw6",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "1.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server",
+    "test": "jest --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.java-academy.xyz/artemsukach/js-3.0-hw6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "webpack-cli": "^4.9.2"
+  }
+}

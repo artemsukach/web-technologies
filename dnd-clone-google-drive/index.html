@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drive</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="drive">
+      <div class="drive__item" data-id="1">1.file</div>
+      <div class="drive__item" data-id="2">2.file</div>
+      <div class="drive__item" data-id="3">3.file</div>
+      <div class="drive__item" data-id="4">4.file</div>
+      <div class="drive__item" data-id="5">5.file</div>
+      <div class="drive__item" data-id="6">6.file</div>
+      <div class="drive__item" data-id="7">7.file</div>
+      <div class="drive__item" data-id="8">8.file</div>
+      <div class="drive__item" data-id="9">9.file</div>
+      <div class="drive__item" data-id="10">10.file</div>
+      <div class="drive__item" data-id="11">11.file</div>
+      <div class="drive__item" data-id="12">12.file</div>
+      <div class="drive__item" data-id="13">13.file</div>
+      <div class="drive__item" data-id="14">14.file</div>
+      <div class="selection selection--hide"></div>
+    </div>
+    <nav id="context-menu-file" class="context-menu">
+      <ul class="context-menu__items context-menu-file__items">
+        <li class="context-menu__item context-menu-file__item">
+          <a
+            href="#"
+            class="context-menu__link context-menu-file__link"
+            data-action="rename"
+            >Rename</a
+          >
+        </li>
+        <li class="context-menu__item context-menu-file__item">
+          <a
+            href="#"
+            class="context-menu__link context-menu-file__link"
+            data-action="delete"
+            >Delete</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <nav id="context-menu-main" class="context-menu">
+      <ul class="context-menu__items context-menu-main__items">
+        <li class="context-menu__item context-menu-main__item">
+          <a
+            href="#"
+            class="context-menu__link context-menu-main__link"
+            data-action="create"
+            >Create</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
