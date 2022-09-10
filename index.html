@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HOMYRU</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+		rel="stylesheet">
+</head>
+
+<body class="body">
+	<header class="header">
+		<h1 class="hidden">HOMYRU</h1>
+		<div class="container">
+			<div class="hamburger-menu">
+				<label class="menu__btn" for="menu__toggle">
+					<span class="menu__btn-icon"></span>
+				</label>
+				<input id="menu__toggle" type="checkbox" />
+				<ul class="menu__box">
+					<li><a class="menu__item" href="#">Каталог</a></li>
+					<li><a class="menu__item" href="#">О компании</a></li>
+					<li><a class="menu__item" href="#">Оплата и доставка</a></li>
+					<li><a class="menu__item" href="#">Гарантии и возврат</a></li>
+					<li><a class="menu__item" href="#">Сотрудничество</a></li>
+					<li><a class="menu__item" href="#">Услуги</a></li>
+					<li><a class="menu__item" href="#">Решения</a></li>
+					<li><a class="menu__item" href="#">Техподдержка</a></li>
+					<li><a class="menu__item" href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<li class="header__list-item"><a href="#" class="header__link">Каталог</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">О компании</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Оплата и доставка</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Гарантии и возврат</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Сотрудничество</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Услуги</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Решения</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Техподдержка</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<section class="info">
+			<div class="container">
+				<div class="info__top">
+					<div class="info__region">Ваш регион: <a class="info__link-region" href="#">Москва</a></div>
+					<div class="info__account">
+						<a class="info__link-account" href="#">Войти</a>
+						<a class="info__link-account" href="#">Личный кабинет</a>
+					</div>
+				</div>
+				<div class="info__main">
+					<div class="info__logo-wrapper logo-wrapper">
+						<h2 class="info__logo-title logo-title">
+							<a href="#" class="info__logo-link logo-link">
+								HO<span class="info__title--orange title--orange">MY</span>RU </a>
+						</h2>
+						<p class="info__logo-text logo-text">ОБОРУДОВАНИЕ И РЕШЕНИЯ ДЛЯ VOIP</p>
+					</div>
+					<div class="info__contact-wrapper contact-wrapper">
+						<div class="info__message message"><a href="#"
+								class="info__message-link message-link">ОБРАТНЫЙ<br>ЗВОНОК</a></div>
+						<div class="info__communication communication">
+							<a href="tel:+74952554466"
+								class="info__link-phone info__communication-item link-phone communication-item">+7 495 2-55-44-66</a>
+							<p class="info__timetable info__communication-item timetable communication-item">(пн-пт с 9 до 18 ч)</p>
+							<div class="info__messanger info__communication-item messanger communication-item">
+								<a href="#" class="info__messanger-link messanger-link"><img class="info__messanger-icon messanger-icon"
+										src="./img/watsup.svg" alt="WatsUp"></a>
+								<a href="#" class="info__messanger-link messanger-link"><img class="info__messanger-icon messanger-icon"
+										src="./img/viber.svg" alt="Viber"></a>
+								<a href="tel:+79031111111" class="info__messanger-link messanger-link">+7 903 111-11-11</a>
+							</div>
+							<a href="mailto:info@homy.ru"
+								class="info__link-email info__communication-item link-email communication-item">info@homy.ru</a>
+						</div>
+					</div>
+					<div class="info__search-wrapper">
+						<div class="info__search-text-wrapper">
+							<img class="info__search-icon" src="./img/rub.svg" alt="rub">
+							<p class="info__search-text"><span class="info__search-text--orange">VOIP РЕШЕНИЯ</span><br>ДЛЯ
+								ЭКОНОМНЫХ ЛЮДЕЙ</p>
+						</div>
+						<form class="info__search-form-wrapper" action="/" method="get">
+							<input class="info__search-field" type="text" placeholder="Поиск по сайту">
+							<button class="info__search-button">искать</button>
+						</form>
+						<div class="info__search-icon-wrapper">
+							<img src="./img/magnifier.png" alt="magnifier" class="info__search-icon">
+						</div>
+					</div>
+					<div class="info__basket-wrapper">
+						<div class="info__basket">
+							<img class="info__basket-icon" src="./img/cart.svg" alt="cart">
+							<p class="info__basket-text">Корзина<br>
+								<a class="info__basket-text-link">4</a> / 4000р.
+							</p>
+						</div>
+						<div class="info__basket-link-wrapper">
+							<a href="#" class="info__basket-link"><img class="info__basket-link-icon" src="./img/heart.svg"
+									alt="heart">
+								Избранное <span class="info__basket-link--blue">7</span></a>
+							<a href="#" class="info__basket-link"><img class="info__basket-link-icon" src="./img/refresh.svg"
+									alt="refresh">
+								Сравнение <span class="info__basket-link--blue">2</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="info__main-mobile">
+					<div class="info__communication communication">
+						<p class="info__logo-title logo-title">
+							<a href="#" class="info__logo-link logo-link">
+								HO<span class="info__title--orange title--orange">MY</span>RU </a>
+						</p>
+						<a href="tel:+74952554466"
+							class="info__link-phone info__communication-item link-phone communication-item">+7
+							495 2-55-44-66</a>
+						<div class="info__messanger info__communication-item messanger communication-item">
+							<a href="#" class="info__messanger-link messanger-link"><img class="info__messanger-icon messanger-icon"
+									src="./img/watsup.svg" alt="WatsUp"></a>
+							<a href="#" class="info__messanger-link messanger-link"><img class="info__messanger-icon messanger-icon"
+									src="./img/viber.svg" alt="Viber"></a>
+							<a href="tel:+79031111111" class="info__messanger-link messanger-link">+7 903 111-11-11</a>
+						</div>
+					</div>
+					<div class="info__search-wrapper">
+						<div class="info__search-icon-wrapper">
+							<img src="./img/magnifier.png" alt="magnifier" class="info__search-icon">
+							<img class="info__basket-icon" src="./img/cart.svg" alt="cart">
+							<span class="info__basket--orange title--orange">10</span>
+						</div>
+						<a href="mailto:info@homy.ru"
+							class="info__link-email info__communication-item link-email communication-item">info@homy.ru</a>
+						<a href="#" class="info__messanger-link messanger-link"><img class="info__messanger-icon messanger-icon"
+								src="./img/viber.svg" alt="Viber">skype-on.06</a>
+					</div>
+				</div>
+				<div class="info__menu">
+					<ul class="info__list">
+						<li class="info__item"><a href="" class="info__item-link">VOIP ОБОРУДОВАНИЕ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">SKYPE ОБОРУДОВАНИЕ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">GSM ОБОРУДОВАНИЕ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">ВИДЕО-ОБОРУДОВАНИЕ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">РАДИО И DECT ТЕЛЕФОНЫ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">ГАРНИТУРЫ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">ЭЛЕКТРОННЫЕ ЗАМКИ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">ДОМОФОННЫЕ СИСТЕМЫ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">СИСТЕМЫ ЗАПИСИ ТЕЛЕФОННЫХ РАЗГОВОРОВ</a></li>
+						<li class="info__item"><a href="" class="info__item-link">СЕТЕВОЕ ОБОРУДОВАНИЕ</a> </li>
+						<li class="info__item"><a href="" class="info__item-link"><img class="info__item-link-arrow"
+									src="./img/arrow-right.svg" alt="right arrow"></a> </li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="news">
+			<div class="container">
+				<div class="news__wrapper">
+					<div class="news__posts">
+						<div class="news__title-wrapper">
+							<h2 class="news__title">НОВОСТИ КОМПАНИИ</h2>
+						</div>
+						<div class="news__posts-wrapper">
+							<div class="news__posts-item">
+								<div class="news__date-wrapper">
+									<img src="./img/news-post.jpg" alt="table" class="news__date-img">
+									<span class="news__date-number">15</span>
+									<p class="news__date-month">октября</p>
+								</div>
+								<div class="news__posts-text-wrapper">
+									<a class="news__posts-title" href="#">Новинка от “Элтекс” - точка доступа WEP-2ac</a>
+									<p class="news__posts-text">Предприятие «Элтекс» запустило производство точки доступа WEP-2ac.</p>
+								</div>
+							</div>
+							<div class="news__posts-item">
+								<div class="news__date-wrapper">
+									<img src="./img/news-post.jpg" alt="table" class="news__date-img">
+									<span class="news__date-number">07</span>
+									<p class="news__date-month">октября</p>
+								</div>
+								<div class="news__posts-text-wrapper">
+									<a class="news__posts-title" href="#">Новинка от компании Grandstream!</a>
+									<p class="news__posts-text">Скоро в продаже мощный маршрутизатор GWN7000!</p>
+								</div>
+							</div>
+							<div class="news__posts-item">
+								<div class="news__date-wrapper">
+									<img src="./img/news-post.jpg" alt="table" class="news__date-img">
+									<span class="news__date-number">28</span>
+									<p class="news__date-month">сентября</p>
+								</div>
+								<div class="news__posts-text-wrapper">
+									<a class="news__posts-title" href="#">WiFi точка доступа от компании Grandstream!</a>
+									<p class="news__posts-text">Уже скоро в продаже!</p>
+								</div>
+							</div>
+							<p class="news__posts-link-wrapper"><a href="#" class="news__posts-link">Все новости</a></p>
+						</div>
+					</div>
+					<div class="news__banner">
+						<div class="news__text-wrapper">
+							<p class="news__text">БОЛЕЕ 2000 ТОВАРОВ ОТ 40+ ПРОИЗВОДИТЕЛЕЙ В ОДНОМ МАГАЗИНЕ. <a href="#"
+									class="news__text-link">ЛЮБЫЕ РЕШЕНИЯ ПОД КЛЮЧ.</a></p>
+						</div>
+						<div class="news__banner-wrapper">
+							<button class="news__left-arrow-button left-button button--cursor--pointer">
+								<img class="news__left-arrow-img" src="./img/orange-arrow-left.svg" alt="left arrow">
+							</button>
+							<div class="news__banner-text-wrapper">
+								<p class="news__banner-text"><span class="news__banner-text--orange">РЕВОЛЮЦИОННОЕ РЕШЕНИЕ</span><br>
+									НА РІНКЕ СРЕДИ СИСТЕМ ВКС!<br>
+									<span class="news__baner-text--style--italic">GVC 3200 ОТ КОМПАНИИ GRANDSTREAM ЭТО:</span>
+								</p>
+								<ul class="news__banner-list">
+									<li class="news__banner-list-item">9-ти сторонняя аудио/видео конференция без покупки
+										дополнительного
+										ПО
+									</li>
+									<li class="news__banner-list-item">2 Мпикс камера CMOS с разрешением 1920Hx1080V@15fps</li>
+									<li class="news__banner-list-item">Гигабитный порт, встроенный модуль WiFi (802.11п) и Bluetooth
+										4.0,
+										Miracast </li>
+								</ul>
+								<a href="#" class="news__banner-link">ПОДРОБНЕЕ</a>
+							</div>
+							<button class="news__right-arrow-button right-button button--cursor--pointer">
+								<img class="news__right-arrow-img" src="./img/orange-arrow-right.svg" alt="right arrow">
+							</button>
+							<ul class="news__banner-navigation">
+								<li class="news__banner-navigation-item"><button
+										class="news__banner-navigation-btn news__banner-navigation-btn--orange button--cursor--pointer"></button>
+								</li>
+								<li class="news__banner-navigation-item"><button
+										class="news__banner-navigation-btn button--cursor--pointer"></button></li>
+								<li class="news__banner-navigation-item"><button
+										class="news__banner-navigation-btn button--cursor--pointer"></button></li>
+								<li class="news__banner-navigation-item"><button
+										class="news__banner-navigation-btn button--cursor--pointer"></button></li>
+								<li class="news__banner-navigation-item"><button
+										class="news__banner-navigation-btn button--cursor--pointer"></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="new-items catalog">
+			<div class="container">
+				<div class="new-items__top section__top">
+					<h2 class="new-items__top-title section__top-title">НОВИНКИ</h2>
+					<img src="./img/orange-arrow-right.svg" alt="arrow" class="section__top-arrow">
+					<div class="new-items__horizontal-line section__horizontal-line"></div>
+					<a href="#" class="new-items__top-link section__top-link">Все новинки</a>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-left.svg" alt="arrow left"
+							class="section__top-arrow-left"></div>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-right.svg" alt="arrow right"
+							class="section__top-arrow-right"></div>
+				</div>
+				<div class="new-items__wrapper catalog__wrapper">
+					<button class="new-items__left-arrow-button catalog__left-arrow-button left-button button--cursor--pointer">
+						<img class="new-items__left-arrow-img catalog__left-arrow-img" src="./img/catalog-arrow-left.svg"
+							alt="left arrow">
+					</button>
+					<div class="new-items__items catalog__items">
+						<div class="new-items__item catalog__item">
+							<div class="new-items__label catalog__label">
+								<img src="./img/label-green.svg" alt="label" class="new-items__label-img catalog__label-img">
+								<p class="new-items__label-text catalog__label-text">NEW</p>
+							</div>
+							<div class="new-items__item-wrapper catalog__item-wrapper"><img
+									class="new-items__item-img catalog__item-img" src="./img/mobile-black.jpg" alt="mobile phone"></div>
+							<div class="new-items__item-info catalog__item-info">
+								<a href="#" class="new-items__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="new-items__price catalog__price">Цена:<span
+										class="new-items__current-price catalog__current-price">12 300
+										р.</span><span class="new-items__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="new-items__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="new-items__btn catalog__btn"><img class="new-items__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="new-items__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="new-items__item catalog__item">
+							<div class="new-items__label catalog__label">
+								<img src="./img/label-green.svg" alt="label" class="new-items__label-img catalog__label-img">
+								<p class="new-items__label-text catalog__label-text">NEW</p>
+							</div>
+							<div class="new-items__item-wrapper catalog__item-wrapper"><img
+									class="new-items__item-img catalog__item-img" src="./img/router.jpg" alt="router"></div>
+							<div class="new-items__item-info catalog__item-info">
+								<a href="#" class="new-items__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="new-items__price catalog__price">Цена:<span
+										class="new-items__current-price catalog__current-price">12 300
+										р.</span><span class="new-items__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="new-items__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="new-items__btn catalog__btn"><img class="new-items__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="new-items__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="new-items__item catalog__item">
+							<div class="new-items__label catalog__label">
+								<img src="./img/label-green.svg" alt="label" class="new-items__label-img catalog__label-img">
+								<p class="new-items__label-text catalog__label-text">NEW</p>
+							</div>
+							<div class="new-items__item-wrapper catalog__item-wrapper"><img
+									class="new-items__item-img catalog__item-img" src="./img/mobile-white.jpg" alt="mobile phone"></div>
+							<div class="new-items__item-info catalog__item-info">
+								<a href="#" class="new-items__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="new-items__price catalog__price">Цена:<span
+										class="new-items__current-price catalog__current-price">12 300
+										р.</span><span class="new-items__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="new-items__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="new-items__btn catalog__btn"><img class="new-items__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="new-items__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="new-items__item catalog__item">
+							<div class="new-items__label catalog__label">
+								<img src="./img/label-green.svg" alt="label" class="new-items__label-img catalog__label-img">
+								<p class="new-items__label-text catalog__label-text">NEW</p>
+							</div>
+							<div class="new-items__item-wrapper catalog__item-wrapper"><img
+									class="new-items__item-img catalog__item-img" src="./img/home-black.jpg" alt="home phone"></div>
+							<div class="new-items__item-info catalog__item-info">
+								<a href="#" class="new-items__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="new-items__price catalog__price">Цена:<span
+										class="new-items__current-price catalog__current-price">12 300
+										р.</span><span class="new-items__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="new-items__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="new-items__btn catalog__btn"><img class="new-items__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="new-items__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button
+						class="new-items__right-arrow-button catalog__right-arrow-button right-button button--cursor--pointer">
+						<img class="new-items__right-arrow-img" src="./img/catalog-arrow-right.svg" alt="right arrow">
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="recommend catalog">
+			<div class="container">
+				<div class="recommend__top section__top">
+					<h2 class="recommend__top-title section__top-title">РЕКОМЕНДУЕМ</h2>
+					<img src="./img/orange-arrow-right.svg" alt="arrow" class="section__top-arrow">
+					<div class="recommend__horizontal-line section__horizontal-line"></div>
+					<a href="#" class="recommend__top-link section__top-link">Все рекомендации</a>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-left.svg" alt="arrow left"
+							class="section__top-arrow-left"></div>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-right.svg" alt="arrow right"
+							class="section__top-arrow-right"></div>
+				</div>
+				<div class="recommend__wrapper catalog__wrapper">
+					<button class="recommend__left-arrow-button catalog__left-arrow-button left-button button--cursor--pointer">
+						<img class="recommend__left-arrow-img catalog__left-arrow-img" src="./img/catalog-arrow-left.svg"
+							alt="left arrow">
+					</button>
+					<div class="recommend__items catalog__items">
+						<div class="recommend__item catalog__item">
+							<div class="recommend__label catalog__label">
+								<img src="./img/yellow-label.svg" alt="label" class="recommend__label-img catalog__label-img">
+								<img src="./img/like.svg" alt="label" class="recommend__label-text catalog__label-text">
+							</div>
+							<div class="recommend__item-wrapper catalog__item-wrapper"><img
+									class="recommend__item-img catalog__item-img" src="./img/mobile-black.jpg" alt="mobile phone"></div>
+							<div class="recommend__item-info catalog__item-info">
+								<a href="#" class="recommend__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="recommend__price catalog__price">Цена:<span
+										class="recommend__current-price catalog__current-price">12 300
+										р.</span><span class="recommend__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="recommend__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="recommend__btn catalog__btn"><img class="recommend__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="recommend__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="recommend__item catalog__item">
+							<div class="recommend__label catalog__label">
+								<img src="./img/yellow-label.svg" alt="label" class="recommend__label-img catalog__label-img">
+								<img src="./img/like.svg" alt="label" class="recommend__label-text catalog__label-text">
+							</div>
+							<div class="recommend__item-wrapper catalog__item-wrapper"><img
+									class="recommend__item-img catalog__item-img" src="./img/router.jpg" alt="router"></div>
+							<div class="recommend__item-info catalog__item-info">
+								<a href="#" class="recommend__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="recommend__price catalog__price">Цена:<span
+										class="recommend__current-price catalog__current-price">12 300
+										р.</span><span class="recommend__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="recommend__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="recommend__btn catalog__btn"><img class="recommend__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="recommend__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="recommend__item catalog__item">
+							<div class="recommend__label catalog__label">
+								<img src="./img/yellow-label.svg" alt="label" class="recommend__label-img catalog__label-img">
+								<img src="./img/like.svg" alt="label" class="recommend__label-text catalog__label-text">
+							</div>
+							<div class="recommend__item-wrapper catalog__item-wrapper"><img
+									class="recommend__item-img catalog__item-img" src="./img/mobile-white.jpg" alt="mobile phone"></div>
+							<div class="recommend__item-info catalog__item-info">
+								<a href="#" class="recommend__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="recommend__price catalog__price">Цена:<span
+										class="recommend__current-price catalog__current-price">12 300
+										р.</span><span class="recommend__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="recommend__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="recommend__btn catalog__btn"><img class="recommend__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="recommend__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="recommend__item catalog__item">
+							<div class="recommend__label catalog__label">
+								<img src="./img/yellow-label.svg" alt="label" class="recommend__label-img catalog__label-img">
+								<img src="./img/like.svg" alt="label" class="recommend__label-text catalog__label-text">
+							</div>
+							<div class="recommend__item-wrapper catalog__item-wrapper"><img
+									class="recommend__item-img catalog__item-img" src="./img/home-black.jpg" alt="home phone"></div>
+							<div class="recommend__item-info catalog__item-info">
+								<a href="#" class="recommend__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="recommend__price catalog__price">Цена:<span
+										class="recommend__current-price catalog__current-price">12 300
+										р.</span><span class="recommend__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="recommend__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="recommend__btn catalog__btn"><img class="recommend__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="recommend__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button
+						class="recommend__right-arrow-button catalog__right-arrow-button right-button button--cursor--pointer">
+						<img class="recommend__right-arrow-img" src="./img/catalog-arrow-right.svg" alt="right arrow">
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="sale catalog">
+			<div class="container">
+				<div class="sale__top section__top">
+					<h2 class="sale__top-title section__top-title">РАСПРОДАЖА</h2>
+					<img src="./img/orange-arrow-right.svg" alt="arrow" class="section__top-arrow">
+					<div class="sale__horizontal-line section__horizontal-line"></div>
+					<a href="#" class="sale__top-link section__top-link">Все товары</a>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-left.svg" alt="arrow left"
+							class="section__top-arrow-left"></div>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-right.svg" alt="arrow right"
+							class="section__top-arrow-right"></div>
+				</div>
+				<div class="sale__wrapper catalog__wrapper">
+					<button class="sale__left-arrow-button catalog__left-arrow-button left-button button--cursor--pointer">
+						<img class="sale__left-arrow-img catalog__left-arrow-img" src="./img/catalog-arrow-left.svg"
+							alt="left arrow">
+					</button>
+					<div class="sale__items catalog__items">
+						<div class="sale__item catalog__item">
+							<div class="sale__label catalog__label">
+								<img src="./img/blue-label.svg" alt="label" class="sale__label-img catalog__label-img">
+								<p class="sale__label-text catalog__label-text">%</p>
+							</div>
+							<div class="sale__item-wrapper catalog__item-wrapper"><img class="sale__item-img catalog__item-img"
+									src="./img/mobile-black.jpg" alt="mobile phone"></div>
+							<div class="sale__item-info catalog__item-info">
+								<a href="#" class="sale__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="sale__price catalog__price">Цена:<span class="sale__current-price catalog__current-price">12
+										300
+										р.</span><span class="sale__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="sale__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="sale__btn catalog__btn"><img class="sale__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="sale__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="sale__item catalog__item">
+							<div class="sale__label catalog__label">
+								<img src="./img/blue-label.svg" alt="label" class="sale__label-img catalog__label-img">
+								<p class="sale__label-text catalog__label-text">%</p>
+							</div>
+							<div class="sale__item-wrapper catalog__item-wrapper"><img class="sale__item-img catalog__item-img"
+									src="./img/router.jpg" alt="router"></div>
+							<div class="sale__item-info catalog__item-info">
+								<a href="#" class="sale__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="sale__price catalog__price">Цена:<span class="sale__current-price catalog__current-price">12
+										300
+										р.</span><span class="sale__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="sale__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="sale__btn catalog__btn"><img class="sale__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="sale__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="sale__item catalog__item">
+							<div class="sale__label catalog__label">
+								<img src="./img/blue-label.svg" alt="label" class="sale__label-img catalog__label-img">
+								<p class="sale__label-text catalog__label-text">%</p>
+							</div>
+							<div class="sale__item-wrapper catalog__item-wrapper"><img class="sale__item-img catalog__item-img"
+									src="./img/mobile-white.jpg" alt="mobile phone"></div>
+							<div class="sale__item-info catalog__item-info">
+								<a href="#" class="sale__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="sale__price catalog__price">Цена:<span class="sale__current-price catalog__current-price">12
+										300
+										р.</span><span class="sale__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="sale__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="sale__btn catalog__btn"><img class="sale__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="sale__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="sale__item catalog__item">
+							<div class="sale__label catalog__label">
+								<img src="./img/blue-label.svg" alt="label" class="sale__label-img catalog__label-img">
+								<p class="sale__label-text catalog__label-text">%</p>
+							</div>
+							<div class="sale__item-wrapper catalog__item-wrapper"><img class="sale__item-img catalog__item-img"
+									src="./img/home-black.jpg" alt="home phone"></div>
+							<div class="sale__item-info catalog__item-info">
+								<a href="#" class="sale__product-link main-link">IP телефон Siemens Gigaset C530A
+									IP</a>
+								<p class="sale__price catalog__price">Цена:<span class="sale__current-price catalog__current-price">12
+										300
+										р.</span><span class="sale__previous-price catalog__previous-price">15 5000 р.</span></p>
+								<div class="sale__buy-wrapper catalog__buy-wrapper">
+									<a href="#" class="sale__btn catalog__btn"><img class="sale__img catalog__img"
+											src="./img/white-cart.svg" alt="cart">КУПИТЬ</a>
+									<a href="#" class="sale__info-link link-info">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="sale__right-arrow-button catalog__right-arrow-button right-button button--cursor--pointer">
+						<img class="sale__right-arrow-img" src="./img/catalog-arrow-right.svg" alt="right arrow">
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="promo">
+			<div class="container">
+				<div class="promo__top section__top">
+					<h2 class="promo__top-title section__top-title">АКЦИИ</h2>
+					<img src="./img/orange-arrow-right.svg" alt="arrow" class="section__top-arrow">
+					<div class="promo__horizontal-line section__horizontal-line"></div>
+					<a href="#" class="promo__top-link section__top-link">Все акции</a>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-left.svg" alt="arrow left"
+							class="section__top-arrow-left"></div>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-right.svg" alt="arrow right"
+							class="section__top-arrow-right"></div>
+				</div>
+				<div class="promo__items catalog__items">
+					<div class="promo__item">
+						<a href="#" class="promo__name main-link">Название акции</a>
+						<div class="promo__item-wrapper"><img class="promo__item-img" src="./img/promo-1.png" alt="promo"></div>
+						<p class="promo__text">Важными преимуществом использования айпи телефона вместо обычного, является на
+							порядок более низкая цена соединения. </p>
+						<div class="promo__term">
+							<p class="promo__term-text">Срок действия:</p>
+							<div class="promo__term-wrapper">
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<div class="promo__term-date-number">0</div>
+										<div class="promo__term-date-number">0</div>
+									</div>
+									<p class="promo__term-date-text">дней</p>
+								</div>
+								<span class="promo__term-colon">:</span>
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<div class="promo__term-date-number">0</div>
+										<div class="promo__term-date-number">0</div>
+									</div>
+									<p class="promo__term-date-text">часов</p>
+								</div>
+								<span class="promo__term-colon">:</span>
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<div class="promo__term-date-number">1</div>
+										<div class="promo__term-date-number">6</div>
+									</div>
+									<p class="promo__term-date-text">минут</p>
+								</div>
+							</div>
+						</div>
+						<p class="promo__info"><a class="promo__info-link link-info" href="#">Подробнее</a></p>
+					</div>
+					<div class="promo__item">
+						<a href="#" class="promo__name main-link">Название акции</a>
+						<div class="promo__item-wrapper"><img class="promo__item-img" src="./img/promo-2.png" alt="promo"></div>
+						<p class="promo__text">Важными преимуществом использования айпи телефона вместо обычного, является на
+							порядок более низкая цена соединения. </p>
+						<div class="promo__term">
+							<p class="promo__term-text">Срок действия:</p>
+							<div class="promo__term-wrapper">
+								<div class="promo__term-date-wrapper">
+									<p class="promo__term-date-info">БЕССРОЧНО</p>
+								</div>
+							</div>
+						</div>
+						<p class="promo__info"><a class="promo__info-link link-info" href="#">Подробнее</a></p>
+					</div>
+					<div class="promo__item">
+						<a href="#" class="promo__name main-link">Название акции</a>
+						<div class="promo__item-wrapper"><img class="promo__item-img" src="./img/promo-3.png" alt="promo"></div>
+						<p class="promo__text">Важными преимуществом использования айпи телефона вместо обычного, является на
+							порядок более низкая цена соединения. </p>
+						<div class="promo__term">
+							<p class="promo__term-text">Срок действия:</p>
+							<div class="promo__term-wrapper">
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<span class="promo__term-date-number">0</span>
+										<span class="promo__term-date-number">0</span>
+									</div>
+									<p class="promo__term-date-text">дней</p>
+								</div>
+								<span class="promo__term-colon">:</span>
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<span class="promo__term-date-number">0</span>
+										<span class="promo__term-date-number">0</span>
+									</div>
+									<p class="promo__term-date-text">часов</p>
+								</div>
+								<span class="promo__term-colon">:</span>
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<span class="promo__term-date-number">1</span>
+										<span class="promo__term-date-number">6</span>
+									</div>
+									<p class="promo__term-date-text">минут</p>
+								</div>
+							</div>
+						</div>
+						<p class="promo__info"><a class="promo__info-link link-info" href="#">Подробнее</a></p>
+					</div>
+					<div class="promo__item">
+						<a href="#" class="promo__name main-link">Название акции</a>
+						<div class="promo__item-wrapper"><img class="promo__item-img" src="./img/promo-4.png" alt="promo"></div>
+						<p class="promo__text">Важными преимуществом использования айпи телефона вместо обычного, является на
+							порядок более низкая цена соединения. </p>
+						<div class="promo__term">
+							<p class="promo__term-text">Срок действия:</p>
+							<div class="promo__term-wrapper">
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<span class="promo__term-date-number">0</span>
+										<span class="promo__term-date-number">0</span>
+									</div>
+									<p class="promo__term-date-text">дней</p>
+								</div>
+								<span class="promo__term-colon">:</span>
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<span class="promo__term-date-number">0</span>
+										<span class="promo__term-date-number">0</span>
+									</div>
+									<p class="promo__term-date-text">часов</p>
+								</div>
+								<span class="promo__term-colon">:</span>
+								<div class="promo__term-date-wrapper">
+									<div class="promo__term-date-numbers">
+										<span class="promo__term-date-number">1</span>
+										<span class="promo__term-date-number">6</span>
+									</div>
+									<p class="promo__term-date-text">минут</p>
+								</div>
+							</div>
+						</div>
+						<p class="promo__info"><a class="promo__info-link link-info" href="#">Подробнее</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="buy-now">
+			<div class="container">
+				<div class="buy-now__top section__top">
+					<h2 class="buy-now__top-title section__top-title">ЧТО ПОКУПАЮТ ПРЯМО СЕЙЧАС</h2>
+					<div class="buy-now__horizontal-line section__horizontal-line"></div>
+				</div>
+				<div class="buy-now__items">
+					<div class="buy-now__item">
+						<img src="./img/byu-now1.jpg" alt="lock" class="buy-now__img">
+						<div class="buy-now__text">
+							<a href="#" class="byu-now__name main-link">Замок дверной Samsung SHS-2320XMK/EN</a>
+						</div>
+					</div>
+					<div class="buy-now__item">
+						<img src="./img/byu-now2.jpg" alt="mobile phone" class="buy-now__img">
+						<div class="buy-now__text">
+							<a href="#" class="byu-now__name main-link">GSM-VoIP шлюз OpenVox VoxStackVS-GW2120-4G</a>
+						</div>
+					</div>
+					<div class="buy-now__item">
+						<img src="./img/byu-now3.jpg" alt="home phone" class="buy-now__img">
+						<div class="buy-now__text">
+							<a href="#" class="byu-now__name main-link">IP телефон Grandstream GXP2130</a>
+						</div>
+					</div>
+					<div class="buy-now__item">
+						<img src="./img/buy-now4.jpg" alt="home phone" class="buy-now__img">
+						<div class="buy-now__text">
+							<a href="#" class="byu-now__name main-link">GSM телефон BQD–2051 Rome</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="brands">
+			<div class="container">
+				<div class="brands__top section__top">
+					<h2 class="brands__top-title section__top-title">НАШИ КЛЮЧЕВЫЕ БРЕНДЫ</h2>
+					<img src="./img/orange-arrow-right.svg" alt="arrow" class="section__top-arrow">
+					<div class="brands__horizontal-line section__horizontal-line"></div>
+					<a href="#" class="brands__top-link section__top-link">Все бренды</a>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-left.svg" alt="arrow left"
+							class="section__top-arrow-left"></div>
+					<div class="section__top-arrow-wrapper"><img src="./img/orange-arrow-right.svg" alt="arrow right"
+							class="section__top-arrow-right"></div>
+				</div>
+				<div class="brands__items">
+					<div class="brands__item"><img src="./img/samsung.png" alt="samsung" class="brands__logo"></div>
+					<div class="brands__item"><img src="./img/escene.png" alt="escene" class="brands__logo"></div>
+					<div class="brands__item"><img src="./img/siemense.png" alt="siemense" class="brands__logo"></div>
+					<div class="brands__item"><img src="./img/panasonic.png" alt="panasonic" class="brands__logo"></div>
+					<div class="brands__item"><img src="./img/fanvil.png" alt="fanvil" class="brands__logo"></div>
+				</div>
+			</div>
+		</section>
+		<section class="strengths">
+			<div class="container">
+				<div class="strengths__wrapper">
+					<div class="strengths__top section__top">
+						<h2 class="strengths__top-title section__top-title">НАШИ СИЛЬНЫЕ СТОРОНЫ</h2>
+						<div class="strengths__horizontal-line section__horizontal-line"></div>
+					</div>
+					<div class="strengths__items">
+						<div class="strengths__item">
+							<div class="strengths__logo-wrapper">
+								<img src="./img/messages.svg" alt="messages" class="strengths__logo-img">
+							</div>
+							<p class="strengths__text">Грамотная консультация по каждому товару</p>
+						</div>
+						<div class="strengths__item">
+							<div class="strengths__logo-wrapper">
+								<img src="./img/wallet.svg" alt="wallet" class="strengths__logo-img">
+							</div>
+							<p class="strengths__text">Любые способы оплаты</p>
+						</div>
+						<div class="strengths__item">
+							<div class="strengths__logo-wrapper">
+								<img src="./img/tools.svg" alt="tools" class="strengths__logo-img">
+							</div>
+							<p class="strengths__text">Собственный сервисный центр</p>
+						</div>
+						<div class="strengths__item">
+							<div class="strengths__logo-wrapper">
+								<img src="./img/pickpoint.svg" alt="pickpoint" class="strengths__logo-img">
+							</div>
+							<p class="strengths__text">Разветвленная сеть самовывоза (Pickpoint)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="causes">
+			<div class="container">
+				<div class="causes__top section__top">
+					<h2 class="causes__top-title section__top-title">5 ПРИЧИН ВЫБРАТЬ НАШУ КОМПАНИЮ</h2>
+					<div class="causes__horizontal-line section__horizontal-line"></div>
+				</div>
+				<div class="causes__items">
+					<div class="causes__item">
+						<div class="causes__item-top">
+							<img src="./img/cross.svg" alt="cross" class="causes__item-icon">
+							<p class="causes__item-top-text">С чем сталкиваются клиенты в 85% случаев, когда обращаются к нашим
+								конкурентам?</p>
+						</div>
+						<ul class="causes__item-list">
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">1.5 беглых
+										менеджера</span> по продажам со своим сайтом, имитирующие торговую
+									компанию.</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Торговля серым,</span>
+									несертифицированным товаром, что выливается в проблемы
+									при гарантийном обслуживании.</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Менеджеры по
+										продажам</span> знакомы с оборудованием лишь на бумаге, часто не
+									знают, что они продают.</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Компании занимаются
+										только
+										продажей,</span> не проводят установку и настройку
+									оборудования под ключ. Не оказывают техподдержку.</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Сложная процедура
+										гарантийного ремонта</span> и возврата товара в случае
+									проблем. Не понятно, куда обращаться по гарантии.</p>
+							</li>
+						</ul>
+					</div>
+					<div class="causes__item">
+						<div class="causes__item-top">
+							<img src="./img/check.svg" alt="check" class="causes__item-icon">
+							<p class="causes__item-top-text">Какой сервис предложим Вам мы?</p>
+						</div>
+						<ul class="causes__item-list">
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Открытая компания</span>
+									с
+									полным штатом профильных специалистов.</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text">Торговля оборудованием, пришедшим в РФ
+									<span class="causes__list-item--weight--700">исключительно через официальные поставки.</span>
+								</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Мы прекрасно
+										понимаем,</span> что за оборудование продаем. Можем проконсультировать по функционалу, либо
+									подобрать
+									аналог.</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Оказываем полный комплекс
+										услуг</span> по технической поддержке клиентов, а также проводим установку и настройку силами своего
+									IT подразделения.</p>
+							</li>
+							<li class="causes__item-list-item">
+								<p class="causes__list-item-text"><span class="causes__list-item--weight--700">Мы имеем собственный
+										сервисный центр,</span> который осуществляет гарантийный ремонт оборудования.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="numbers">
+			<div class="container">
+				<div class="numbers__top section__top">
+					<h2 class="numbers__top-title section__top-title">МЫ В ЦИФРАХ</h2>
+					<div class="numbers__horizontal-line section__horizontal-line"></div>
+				</div>
+				<div class="numbers__items">
+					<div class="numbers__item">
+						<div class="numbers__logo-wrapper">
+							<p class="numbers__logo-text">10</p>
+						</div>
+						<p class="numbers__text">10 лет на рынке</p>
+					</div>
+					<div class="numbers__item">
+						<div class="numbers__logo-wrapper">
+							<p class="numbers__logo-text">25/5</p>
+						</div>
+						<p class="numbers__text">25 профильных специалистов, 5 менеджеров отдела продаж</p>
+					</div>
+					<div class="numbers__item">
+						<div class="numbers__logo-wrapper">
+							<p class="numbers__logo-text">2222<br><span class="numbers__logo-text-symbol">x</span><br>100</p>
+						</div>
+						<p class="numbers__text">2222 товара в каталоге среди 100 брендов</p>
+					</div>
+					<div class="numbers__item">
+						<div class="numbers__logo-wrapper">
+							<p class="numbers__logo-text">29</p>
+						</div>
+						<p class="numbers__text">29 торговых партнеров</p>
+					</div>
+					<div class="numbers__item">
+						<div class="numbers__logo-wrapper">
+							<p class="numbers__logo-text">14</p>
+						</div>
+						<p class="numbers__text">14 отгрузок в сутки</p>
+					</div>
+					<div class="numbers__item">
+						<div class="numbers__logo-wrapper">
+							<p class="numbers__logo-text">1</p>
+						</div>
+						<p class="numbers__text">1 из лидеров рынка</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="work">
+			<div class="container">
+				<div class="work__top section__top">
+					<h2 class="work__top-title section__top-title">КАК С НАМИ РАБОТАТЬ?</h2>
+					<div class="work__horizontal-line section__horizontal-line"></div>
+				</div>
+				<div class="work__options">
+					<div class="work__options-title">В розницу</div>
+					<div class="work__options-item"><a href="#" class="work__options-link">ОПТОВИКАМ</a></div>
+					<div class="work__options-item"><a href="#" class="work__options-link">Партнерам</a></div>
+					<div class="work__options-item"><a href="#" class="work__options-link">Покупая с настройкой</a></div>
+				</div>
+				<div class="work__way">
+					<div class="work__way-item">
+						<img class="work__way-logo" src="./img/phone.svg" alt="phone">
+						<p class="work__way-text">1. Образение через сайт/по телефону</p>
+					</div>
+					<div class="work__way-arrow">
+						<img class="work__way-arrow-img" src="./img/work-arrow.svg" alt="arrow">
+					</div>
+					<div class="work__way-item">
+						<img class="work__way-logo" src="./img/check-border.svg" alt="ckeck">
+						<p class="work__way-text">2. Подтверждение заказа</p>
+					</div>
+					<div class="work__way-arrow">
+						<img class="work__way-arrow-img" src="./img/work-arrow.svg" alt="arrow">
+					</div>
+					<div class="work__way-item">
+						<img class="work__way-logo" src="./img/car.svg" alt="car">
+						<p class="work__way-text">3. Доставка товара</p>
+					</div>
+					<div class="work__way-arrow">
+						<img class="work__way-arrow-img" src="./img/work-arrow.svg" alt="arrow">
+					</div>
+					<div class="work__way-item">
+						<img class="work__way-logo" src="./img/wallet-work.svg" alt="wallet">
+						<p class="work__way-text">4. Оплата товара при получении, либо предоплата побезналичному расчету
+							до п. 3</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about-us">
+			<div class="container">
+				<div class="about-us__top section__top">
+					<h2 class="about-us__top-title section__top-title hidden">О нас</h2>
+					<div class="about-us__horizontal-line section__horizontal-line"></div>
+				</div>
+				<div class="about-us__items">
+					<div class="about-us__item">
+						<p class="about-us__text">Интернет магазин Хомиру поможет вам в выборе оборудования для <a href="#"
+								class="about-us__link">IP телефонии</a> -
+							которая активно используется как в бизнесе для общения с клиентами, партнёрами, поставщиками и инвесторами
+							по всему миру, так и в повседневной жизни, для разговоров с друзьями и близкими в других городах. Важными
+							преимуществом использования айпи телефона вместо обычного, является на порядок более низкая цена
+							соединения. Звонок в регион, расположенный за несколько тысяч километров от вас, может обойтись намного
+							дешевле, чем разговор по сотовому телефону в пределах города.</p>
+						<p class="about-us__text">Для <a href="#" class="about-us__link">подключения к услугам IP-телефонии</a>
+							требуется только стабильный выход в
+							интернет и устройство коммуникации, например, компьютер с гарнитурой или ip телефон.</p>
+					</div>
+					<div class="about-us__item">
+						<p class="about-us__text">Наш магазин айпи телефонии Homy предлагает <a href="#"
+								class="about-us__link">полный спектр решений</a> для бизнеса и
+							частных лиц в сфере организации современной связи (в том числе Skype телефоны и SIP телефоны). IP телефоны
+							очень просты в использовании, так как применяется привычный всем, практически естественный интерфейс
+							обычного телефона. Для работы с ним не требуется каких-либо специальных навыков или дополнительных
+							операций: достаточно просто выполнить подключение и <a href="#" class="about-us__link">конфигурирование
+								устройства</a> и положить его на то
+							место, где ранее лежал ваш городской телефон. С этого момента вы и ваши сотрудники можете свободно
+							пользоваться дешевой и защищённой связью.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="delivery additional">
+			<div class="container">
+				<h2 class="about-us__top-title section__top-title hidden">О нас</h2>
+				<div class="additional__wrapper">
+					<p class="delivery__title additional__title">Доставка и оплата</p>
+					<p class="delivery__icon-arrow additional__icon-arrow">&#62;</p>
+				</div>
+			</div>
+		</section>
+		<section class="returns additional">
+			<div class="container">
+				<h2 class="about-us__top-title section__top-title hidden">О нас</h2>
+				<div class="additional__wrapper">
+					<p class="returns__title additional__title">Гарантии и возврат</p>
+					<p class="returns__icon-arrow additional__icon-arrow">&#62;</p>
+				</div>
+			</div>
+		</section>
+		<section class="support additional">
+			<div class="container">
+				<h2 class="about-us__top-title section__top-title hidden">О нас</h2>
+				<div class="additional__wrapper">
+					<p class="supports__title additional__title">Техподдержка</p>
+					<p class="supports__icon-arrow additional__icon-arrow">&#62;</p>
+				</div>
+			</div>
+		</section>
+		<section class="contacts additional">
+			<div class="container">
+				<h2 class="about-us__top-title section__top-title hidden">О нас</h2>
+				<div class="additional__wrapper">
+					<p class="cotacts__title additional__title">Контакты</p>
+					<p class="cotacts__icon-arrow additional__icon-arrow">&#62;</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__info">
+			<div class="container">
+				<div class="footer__info-wrapper">
+					<div class="footer__info-item">
+						<div class="footer__logo-wrapper logo-wrapper">
+							<h1 class="footer__logo-title logo-title">
+								<a href="#" class="footer__logo-link logo-link">
+									HO<span class="footer__title--orange title--orange">MY</span>RU </a>
+							</h1>
+							<p class="footer__logo-text logo-text">ОБОРУДОВАНИЕ И РЕШЕНИЯ ДЛЯ VOIP</p>
+						</div>
+						<p class="footer__info-text">© ХомиРу, 2006-2016 <span class="footer__info-additional-text">Оборудование и
+								решения для VoIP</span></p>
+						<p class="footer__info-text">Перепечатка материалов возможна только с активной ссылкой на homy.ru</p>
+					</div>
+					<div class="footer__info-item">
+						<p class="footer__info-adress">г. Москва, Зеленоград, Панфиловский пр., дом 8, строение 1</p>
+						<a href="#" class="footer__info-link">Схема проезда</a>
+					</div>
+					<div class="footer__info-item">
+						<div class="footer__info-item-wrapper">
+							<p class="footer__info-link-wrapper"><a href="#" class="footer__info-link">Доставка и оплата</a></p>
+							<p class="footer__info-link-wrapper"><a href="#" class="footer__info-link">Гарантии и возврат</a></p>
+							<p class="footer__info-link-wrapper"><a href="#" class="footer__info-link">Техподдержка</a></p>
+							<p class="footer__info-link-wrapper"><a href="#" class="footer__info-link">Контакты</a></p>
+						</div>
+						<div class="footer__message message"><a href="#"
+								class="footer__message-link message-link">ОБРАТНЫЙ<br>ЗВОНОК</a>
+						</div>
+					</div>
+					<div class="footer__info-item">
+						<div class="footer__contact-wrapper contact-wrapper">
+							<div class="footer__communication communication">
+								<a href="tel:+74952554466"
+									class="footer__link-phone footer__communication-item link-phone communication-item">+7 495
+									2-55-44-66</a>
+								<p class="footer__timetable footer__communication-item timetable communication-item">(пн-пт с 9 до 18 ч)
+								</p>
+								<div class="footer__messanger footer__communication-item messanger communication-item">
+									<a href="#" class="footer__messanger-link messanger-link"><img
+											class="footer__messanger-icon messanger-icon" src="./img/watsup.svg" alt="WatsUp"></a>
+									<a href="#" class="footer__messanger-link messanger-link"><img
+											class="footer__messanger-icon messanger-icon" src="./img/viber.svg" alt="Viber"></a>
+									<a href="tel:+79031111111" class="footer__messanger-link messanger-link">+7 903 111-11-11</a>
+								</div>
+								<a href="mailto:info@homy.ru"
+									class="footer__link-email footer__communication-item link-email communication-item">info@homy.ru</a>
+							</div>
+						</div>
+						<div class="footer__info-messengers">
+							<a href="#" class="footer-info-massengers-link"></a>
+							<a href="#" class="footer-info-massengers-link"></a>
+							<a href="#" class="footer-info-massengers-link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="container">
+				<div class="footer__bottom-wrapper">
+					<p class="footer__bottom-text">Все описания и характеристики товаров носят информационный характер и могут
+						отличаться от представленных в технической документации производителей.
+						Уточняйте информацию у наших менеджеров.</p>
+					<img src="./img/online.png" alt="online info" class="footer__bottom-img">
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
