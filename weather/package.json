@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://artemsukach.github.io/web-technologies/",
+  "homepage": "https://artemsukach.github.io/web-technologies/weather/",
   "scripts": {
     "start": "webpack-dev-server --mode=development --open --hot",
     "build": "webpack --mode=production",
@@ -21,11 +21,10 @@
   "dependencies": {
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
     "enzyme": "^3.11.0",
-    "gh-pages": "^4.0.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0"
+    "react-scripts": "^2.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -33,6 +32,7 @@
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.6.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "url-loader": "^4.1.1",
