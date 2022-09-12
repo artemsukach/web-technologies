@@ -9,7 +9,7 @@
     "react-dom": "^18.1.0",
     "react-redux": "^8.0.2",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^2.1.3",
+    "react-scripts": "^5.0.1",
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
@@ -45,7 +45,6 @@
     "@babel/plugin-transform-modules-commonjs": "^7.18.0",
     "@testing-library/react": "^13.2.0",
     "gh-pages": "^4.0.0",
-    "jest": "^28.1.0",
     "jest-localstorage-mock": "^2.4.21"
   }
 }
