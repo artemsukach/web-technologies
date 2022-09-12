@@ -2,7 +2,6 @@
   "name": "trello-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://artemsukach.github.io/web-technologies/trello-clone",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/user-event": "^13.5.0",
