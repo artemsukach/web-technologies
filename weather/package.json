@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://artemsukach.github.io/web-technologies/weather/",
+  "homepage": "https://artemsukach.github.io/web-technologies/weather",
   "scripts": {
     "start": "webpack-dev-server --mode=development --open --hot",
     "build": "webpack --mode=production",
