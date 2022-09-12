@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.6;
+    font-family: "Oswald", sans-serif;
+    color: #333333;
+}
+
+.background-wrapper{
+    width: 100%;
+    height: 200px;
+    background: url(image/background.jpg) center repeat;
+    background-size: contain;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#avatar{
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.todo-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+li{
+    list-style-type: none;
+    color: #e74d83;
+    padding-bottom: 7px;  
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.todo-list-input{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.text-item{
+    cursor: pointer;
+}
+
+.add-form-input{
+    height: 45px;
+    width: calc(100% - 6px);
+    margin: 0 auto;
+    font-family: inherit;
+    font-size: 1em;
+    color: #333333;
+    border-radius: 8px;
+    border: 1px solid #d2d2d2;
+    box-shadow: inset 0px 1px 10px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.add-form-button{
+    height: 60px;
+    width: 100%;
+    margin: 15px auto;
+    font-family: inherit;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #35792e;
+    border: 0;
+    cursor: pointer;
+
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    color: #4c9552;
+  }
+
+@media (max-width: 1300px) {
+    .container{
+        max-width: 1100px;
+    }
+}
+@media (max-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container{
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container{
+        max-width: 270px;
+    }
+}
+
+@media (max-height: 600px) {
+    .background-wrapper{
+        margin-bottom: 15px;
+    }  
+    ul {
+        margin-bottom: 15px;
+    }  
+    h2 {
+        margin-bottom: 15px;
+    }  
+}
+
+@media (min-width: 1600px) and (min-height: 800px) {
+    /* .background-wrapper{
+        margin-bottom: 15px;
+    }  
+    ul {
+        margin-bottom: 15px;
+    }  
+    h2 {
+        margin-bottom: 15px;
+    }   */
+    body {
+        font-size: 30px;
+    }
+}
