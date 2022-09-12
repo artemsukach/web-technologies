@@ -1,0 +1,11 @@
+.weather__title{
+  text-align: center;
+}
+
+.weather__items{
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
