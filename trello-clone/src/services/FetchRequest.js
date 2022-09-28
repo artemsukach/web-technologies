@@ -1,6 +1,6 @@
 import GenerateRequestData from './GenerateRequestData.js';
 
-const URL = 'https://radiant-temple-07706.herokuapp.com';
+const URL = 'https://webtechnologieskpi123.herokuapp.com';
 
 export default class FetchRequest {
   static async request({ method = 'GET', body, path}) {

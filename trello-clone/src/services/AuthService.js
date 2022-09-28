@@ -1,28 +1,27 @@
 import FetchRequest from './FetchRequest';
 
 export default class AuthService {
-  static async register(username, email, password) {
+  static async register(username, password) {
     const registerResponse = await FetchRequest.request({
       method: 'POST',
       body: {
         username,
-        email,
         password,
       },
-      path: '/auth/local/register',
+      path: '/create',
     });
 
     return registerResponse;
   }
 
-  static async login(identifier, password) {
+  static async login(username, password) {
     const loginResponse = await FetchRequest.request({
       method: 'POST',
       body: {
-        identifier,
+        username,
         password,
       },
-      path: '/auth/local',
+      path: '/login',
     });
 
     return loginResponse;

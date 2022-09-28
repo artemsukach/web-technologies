@@ -42,11 +42,11 @@ function useProvideAuth() {
     }
   }
 
-  async function signup(username, email, password) {
+  async function signup(username, password) {
     setIsLoading(true);
 
     try {
-      const response = await AuthService.register(username, email, password);
+      const response = await AuthService.register(username, password);
 
       if (response.ok) {
         let json = await response.json();

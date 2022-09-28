@@ -1,6 +1,5 @@
 const Router = require('express');
 const controller = require('./Controller.js');
-const middleware = require('./middleware/Middleware.js');
 
 const router = new Router();
 
@@ -9,7 +8,6 @@ const router = new Router();
 router.get('/', controller.test);
 router.post('/create', controller.create);
 router.post('/login', controller.login);
-router.get('/btcRate', middleware, controller.bitcoin);
 
 
 module.exports = router;

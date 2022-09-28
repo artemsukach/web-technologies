@@ -17,12 +17,10 @@ export default function Registration() {
   const dispatch = useDispatch();
   const validationRules = {
     username: (value) => value.length > 0,
-    email: (value) => value.length > 0,
     password: (value) => value.length > 0,
   };
   const defaultValues = {
     username: '',
-    email: '',
     password: '',
   };
   const { values, errors, handleChange, handleBlur, validate } = useForm({
@@ -60,13 +58,6 @@ export default function Registration() {
             onBlur={handleBlur}
           />
           <ErrorMessage error={errors.username} />
-          <AuthField
-            value={values.email}
-            name="email"
-            onChange={handleChange}
-            onBlur={handleBlur}
-          />
-          <ErrorMessage error={errors.email} />
           <AuthField
             value={values.password}
             name="password"
