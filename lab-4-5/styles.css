@@ -1,0 +1,121 @@
+/* START: Task 1 Styles */
+.cell {
+	border: 1px solid #000;
+	padding: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+.cell--green {
+	background-color: green;
+}
+
+.cell--blue {
+	background-color: blue;
+}
+
+.cell--yellow {
+	background-color: yellow;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#submit-phone {
+	width: 53px;
+	height: 44px;
+}
+
+#phone {
+	border-radius: 0;
+	outline: none;
+	border: 1px solid black;
+	width: 270px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.border--red#phone {
+	border-color: #ED6A63;
+}
+
+.valid {
+	content: "Data was successfully sent";
+	background-color: #377C22;
+}
+
+.invalid {
+	content: "Type number does not follow format";
+	background-color: #EF8783;
+}
+
+.hidden {
+	visibility: hidden;
+	border: none;
+}
+
+.massage {
+	width: 300px;
+	padding: 20px;
+	margin: 15px 0;
+	border: 1px solid #858585;
+	color: #fff;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+.basketball__wrapper {
+	margin-top: 50px;
+}
+
+.court {
+	width: 600px;
+	height: 330px;
+	z-index: 1;
+}
+
+.basketball__wrapper {
+	position: relative;
+	width: 600px;
+	height: 330px;
+}
+
+.score {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.score__wrapper {
+	display: flex;
+}
+
+.result {
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	min-height: 18px;
+	margin-bottom: 30px;
+}
+
+.result--red {
+	color: #FF0000;
+}
+
+.result--blue {
+	color: #0000FF;
+}
+
+.move-ball {
+	transform: translate(0, 0);
+	transition: all 1s linear;
+}
+
+.ball {
+	width: 40px;
+	height: 40px;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/* END: Task 3 Styles */
